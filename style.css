@@ -1,0 +1,30 @@
+* {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prosto One', cursive;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.outer-flex {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    justify-content: center;
+}
+
+.inner-flex {
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flexbox;
+}
+
+form {
+    width: 100%;
+    height: 30vh;
+    background: blue;
+}
