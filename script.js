@@ -11,7 +11,7 @@ const btn = document.getElementById("btn");
 const nameArray = [];
 
 function instruct() {
-    instructions.innerHTML = "To get started, you must enter each name into the text field, and click submit after each name. When you are done entering all names, hit the Powerball button."
+    instructions.innerHTML = "To get started, you must enter each name into the text field, and click submit after each name. When you are done entering all names, hit the Pick button."
 };
 form.addEventListener('mouseover', instruct);
 
