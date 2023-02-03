@@ -12,13 +12,32 @@
         <div class="outer-flex">
             <div class="inner-flex">
                 <body>
-                    <header>Pan African Powerball</header>
                     <main>
+                        <h1></h1>
+                        <div class="instruction-div">
+                        <p id="instructions"></p>
+                        </div>
                         <form action="#" id="form">
+                            <header>
+                            <h1>Pan African Power Ball</h1>
+                        </header>
+                            <div class="exit-div">
+                            <button id="refresh">x</button>
+                            </div>
                             <span id="output"></span>
                                 <br><br>
-                        <input id="name-block" type="text" placeholder="Name">
-                        <button type="submit" id="btn">Submit</button>                        </form>
+                                <div class="input-div">
+                        <input onsubmit="reset()" id="name-block" type="text" placeholder="Name">
+                        <br><br>
+                        <div class="btn-div">
+                        <button type="submit" id="btn">Submit</button> 
+                    <button type="submit" id="nameBtn">Pick</button>
+                    </div> 
+                    </div>                     
+                 </form>
+                 <div class="paragraph-div">
+                    <p id="paragraph"></p>
+                    </div>
                     </main>
                     <footer></footer>
                 </body>

@@ -18,13 +18,92 @@
 }
 
 .inner-flex {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
     display: flexbox;
+}
+
+main {
+    width: inherit;
+}
+
+body {
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form {
     width: 100%;
     height: 30vh;
-    background: blue;
+    background: rgb(214, 189, 142);
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 6px 6px 0px;
+}
+
+.input-div {
+    width: 100%;
+    display: flexbox;
+    justify-items: center;
+    justify-content: center;
+}
+
+input {
+    width: inherit;
+    height: 40px;
+}
+
+.paragraph-div {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.exit-div {
+    float: right;
+    width: 20%;
+}
+
+#refresh {
+    margin-top: 10px;
+    width: 100%;
+    height: 3vh;
+    border: none;
+    background: rgba(83, 11, 11, 0.753)
+}
+
+.btn-div {
+    width: inherit;
+}
+
+#btn,
+#nameBtn {
+    width: 25%;
+    height: 5vh;
+    border: none;
+}
+
+#btn {
+    background: rgba(6, 39, 6, 0.582);
+}
+
+#nameBtn {
+    background: rgba(160, 137, 7, 0.753);
+}
+
+.instruction-div {
+ margin-right: auto;
+ margin-left: auto;
 }
