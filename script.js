@@ -11,19 +11,23 @@ const btn = document.getElementById("btn");
 const nameArray = [];
 
 function instruct() {
-    instructions.innerHTML = "To get started, you must enter each name into the text field, and click submit after each name. When you are done entering all names, hit the Pick button."
-};
-form.addEventListener('mouseover', instruct);
+    instructions.style.background =  "rgb(214, 189, 142)";
+    instructions.innerHTML = "To get started, you must enter each name into the text field, and click Name after each name. When you are done entering all names, click the Pick button."
+}
+namesBlock.addEventListener('mouseover', instruct);
 
 function panAfricanPowerBall(names) {
 let names1 = nameArray.push(namesBlock.value);
-paragraph.innerHTML = "  " + nameArray.join(' ') + "  ";
+paragraph.innerHTML = nameArray.join(' ');
 form.reset();
 }
 btn.addEventListener('click', panAfricanPowerBall);
 console.log(nameArray);
 function pickAPlayer() {
     for (let i = 0; i < nameArray.length; i ++) {
+        if(namesBlock.value === false) {
+            nameArray.pop([0]);
+        }
         let pick = Math.floor(Math.random() * nameArray.length);
         winner.innerHTML = "Congratulations, " + nameArray[pick] + " you were selected to win Pan African Powerball!";
     }
@@ -31,8 +35,6 @@ function pickAPlayer() {
 nameBtn.addEventListener('click', pickAPlayer);
 
 function exit() {
-    paragraph.innerHTML = "";
-    output.innerHTML = "";
-    instructions.innerHTML = "";
+    window.location.href = "index.html";
 }
 refresh.addEventListener('click', exit);
