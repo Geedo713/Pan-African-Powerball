@@ -107,3 +107,9 @@ input {
  margin-right: auto;
  margin-left: auto;
 }
+
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
