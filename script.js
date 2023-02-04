@@ -35,6 +35,6 @@ function pickAPlayer() {
 nameBtn.addEventListener('click', pickAPlayer);
 
 function exit() {
-    window.location.href = "index.html";
+    window.location.href = "https://geedo713.github.io/Pan-African-Powerball/index.html";
 }
 refresh.addEventListener('click', exit);
