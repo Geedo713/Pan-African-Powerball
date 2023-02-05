@@ -35,6 +35,9 @@ function pickAPlayer() {
 nameBtn.addEventListener('click', pickAPlayer);
 
 function exit() {
- window.location.reload();
+ location.reload();
+ instructions.innerHTML = "";
+ paragraph.innerHTML = "";
+ instructions.style.background = "";
 }
 refresh.addEventListener('click', exit);
