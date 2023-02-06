@@ -11,7 +11,6 @@ const btn = document.getElementById("btn");
 const nameArray = [];
 
 function instruct() {
-    instructions.style.background =  "rgb(214, 189, 142)";
     instructions.innerHTML = "To get started, you must enter each name into the text field, and click Name after each name. When you are done entering all names, click the Pick button."
 }
 namesBlock.addEventListener('mouseover', instruct);
@@ -35,9 +34,6 @@ function pickAPlayer() {
 nameBtn.addEventListener('click', pickAPlayer);
 
 function exit() {
- location.reload();
- instructions.innerHTML = "";
- paragraph.innerHTML = "";
- instructions.style.background = "";
+ document.location.reload();
 }
 refresh.addEventListener('click', exit);

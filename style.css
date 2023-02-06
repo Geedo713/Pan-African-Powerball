@@ -39,12 +39,13 @@ header {
     height: 10vh;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 
 form {
     width: 100%;
     height: 30vh;
-    background: rgb(214, 189, 142);
+    background: url("images/african-print.png");
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
@@ -90,6 +91,8 @@ input {
     width: 25%;
     height: 5vh;
     border: none;
+    color: white;
+    text-transform: uppercase;
 }
 
 #btn {
